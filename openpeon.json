@@ -1,0 +1,194 @@
+{
+  "cesp_version": "1.0",
+  "name": "lol_announcer_kr",
+  "display_name": "리그 오브 레전드 아나운서 (한국어)",
+  "version": "1.0.0",
+  "description": "League of Legends in-game announcer (리그 오브 레전드 아나운서) Korean voice lines",
+  "author": {
+    "name": "heecheonkim",
+    "github": "hekkim"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "ko",
+  "tags": [
+    "gaming",
+    "league-of-legends",
+    "riot",
+    "korean",
+    "announcer"
+  ],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/AnnouncerWelcomeSummonersRift_KR.wav",
+          "label": "소환사의 협곡에 오신 것을 환영합니다.",
+          "sha256": "8190bfa09fe6b36531e1a9658e3baff941d527ebbd07475a9a2f5fe0b5ae7d9f"
+        },
+        {
+          "file": "sounds/AnnouncerWelcomeLeague_KR.wav",
+          "label": "리그 오브 레전드에 오신 것을 환영합니다.",
+          "sha256": "497303bd8bbc60b975291433a52e56bc3d4396a214a02fd15567dd97e72447ea"
+        },
+        {
+          "file": "sounds/AnnouncerWelcome_KR.wav",
+          "label": "환영합니다.",
+          "sha256": "f386d35a2e98c206db22100cb7bb5112c45d136282148fe4506bd56dfeb5e4b4"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/AnnouncerBattleBegun_KR.wav",
+          "label": "전투가 시작되었습니다.",
+          "sha256": "0791610d316ec4fd2a5d1df17f24a89e13a7ac487b84f7d3889fdce62c333440"
+        },
+        {
+          "file": "sounds/AnnouncerMinionsSpawned_KR.wav",
+          "label": "미니언들이 생성되었습니다.",
+          "sha256": "38b23e91d793a715163300f218ce699b8e07af1da1e5ab508536f6540766acc8"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/AnnouncerVictory_KR.wav",
+          "label": "승리.",
+          "sha256": "e2a69f0ccae48a843c14fec744ccce34f23ae0b706cbb8adbc3c3c8c6f664a5d"
+        },
+        {
+          "file": "sounds/AnnouncerEnemySlain_KR.wav",
+          "label": "적을 처치했습니다.",
+          "sha256": "759fc2d8b348a2b59677ae88a25b24f0d93819bd60d5c97f3781d55d35f23871"
+        },
+        {
+          "file": "sounds/AnnouncerVictoryNear_KR.wav",
+          "label": "승리가 눈앞에 있습니다.",
+          "sha256": "c353e942ad5e7a0850487856100b65ac623c5671a4552c38e5ff1beffa8bbcde"
+        },
+        {
+          "file": "sounds/AnnouncerEnemyInhibitorDestroyed_KR.wav",
+          "label": "적의 억제기를 파괴했습니다.",
+          "sha256": "5dec747abe9b1118bef0b1248bff41d886fc63865da0729ea38d6d0643363619"
+        },
+        {
+          "file": "sounds/AnnouncerPentaKill_KR.wav",
+          "label": "펜타킬!",
+          "sha256": "630ca557f4e1105fc297e083ad2e21f1310ce44093f86f07a0473081fc2b0641"
+        },
+        {
+          "file": "sounds/AnnouncerYouLegendary_KR.wav",
+          "label": "당신은 전설적입니다.",
+          "sha256": "faf0aa281d5375330a05a17d43eb245383b10f476a861575f635ff257b33cba9"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/AnnouncerDefeat_KR.wav",
+          "label": "패배.",
+          "sha256": "2ea072c18ecc10ce210cb2bf97655216d917ffedb55ef86883080468388aa212"
+        },
+        {
+          "file": "sounds/AnnouncerAllySlain_KR.wav",
+          "label": "아군이 당했습니다.",
+          "sha256": "5cc58906f80db3737e381e2c620e52a7bd5b81126f7cdc439ef2fea39e085b14"
+        },
+        {
+          "file": "sounds/AnnouncerEliminated_KR.wav",
+          "label": "제거되었습니다.",
+          "sha256": "6b7d8eb03324221c763f38bd94d9f2a28c27cc62275855fe846e4ea66219fc6e"
+        },
+        {
+          "file": "sounds/AnnouncerShutDown_KR.wav",
+          "label": "제압되었습니다.",
+          "sha256": "0d79d3046553916191c9106099da0740a00310d4555b6076f02d92d2de09906c"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/AnnouncerTurretUnderAttack_KR.wav",
+          "label": "포탑이 공격받고 있습니다.",
+          "sha256": "eae999a941bcae87d7e23158e388ad0b6c33bedd321d3a6cdfb7c97a40c33c1f"
+        },
+        {
+          "file": "sounds/AnnouncerInhibitorUnderAttack_KR.wav",
+          "label": "억제기가 공격받고 있습니다.",
+          "sha256": "05a098ba561518f658f43ce00c64934bb59009f96272b8d5176ecbd17ee78e3c"
+        },
+        {
+          "file": "sounds/AnnouncerNexusUnderAttack_KR.wav",
+          "label": "넥서스가 공격받고 있습니다.",
+          "sha256": "cfb011bd3ea7ea4e797503440275ce90c92cdab157becfea21081e9da6c44e88"
+        },
+        {
+          "file": "sounds/AnnouncerAllyDisconnected_KR.wav",
+          "label": "아군 한 명의 연결이 끊어졌습니다.",
+          "sha256": "d31d656c03ce53feed16dc8615b48be8664da2cc8fa9e152a054fa46701fb61a"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/AnnouncerInhibitorRespawningSoon_KR.wav",
+          "label": "억제기가 곧 재생성됩니다.",
+          "sha256": "584d49cdba5bd5b2e54d7dbcdc13bb9ed8461d22d374e5f726e99805179af2d4"
+        },
+        {
+          "file": "sounds/AnnouncerEnemyVictoryNear_KR.wav",
+          "label": "적의 승리가 눈앞에 있습니다.",
+          "sha256": "08a12600732c8e42c2fca5ae4824e09a5036e18934ab33f6bcb565cb14d0810e"
+        },
+        {
+          "file": "sounds/AnnouncerThirtySecondsToMinions_KR.wav",
+          "label": "미니언 생성까지 30초 남았습니다.",
+          "sha256": "04a04be33a4f515cafe8985c971232e4a63d891c56d04e177c5f4da1e9c11c89"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/AnnouncerYouRampage_KR.wav",
+          "label": "당신은 미쳐 날뛰고 있습니다.",
+          "sha256": "07ab8c8baa54af0b49322318eeeee51b5a943b96b2a99e3f064ee1840de79bab"
+        },
+        {
+          "file": "sounds/AnnouncerKillingSpree_KR.wav",
+          "label": "학살 중입니다.",
+          "sha256": "984a48030814b2e386081e9dd4ccbbfe55ec4fb28e0801442851e1658de9df68"
+        },
+        {
+          "file": "sounds/AnnouncerYouUnstoppable_KR.wav",
+          "label": "당신을 도저히 막을 수 없습니다.",
+          "sha256": "484a1a833023314ab852566dbcae5441441394478c4ad6707d63f1f5d079f459"
+        },
+        {
+          "file": "sounds/AnnouncerUnstoppable_KR.wav",
+          "label": "도저히 막을 수 없습니다.",
+          "sha256": "d94a2cedbf440101dcad943348e4a78d79e196da6a46e3e0f34a0f93a9496da6"
+        },
+        {
+          "file": "sounds/AnnouncerYouDominating_KR.wav",
+          "label": "당신이 전장을 지배하고 있습니다.",
+          "sha256": "bf14ff1c6c942bbe79fc1e9cb01cd5c61b2551a6367437a5e08dfc567c86f516"
+        }
+      ]
+    }
+  },
+  "category_aliases": {
+    "greeting": "session.start",
+    "acknowledge": "task.acknowledge",
+    "complete": "task.complete",
+    "error": "task.error",
+    "permission": "input.required",
+    "resource_limit": "resource.limit",
+    "annoyed": "user.spam"
+  }
+}
